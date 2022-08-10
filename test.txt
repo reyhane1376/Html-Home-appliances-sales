@@ -1,0 +1,98 @@
+      <!--start section one-->
+        <section>
+            <div class="henging-lamp">
+                <div class="test"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 d-flex henging-lamp_right">
+                            <div class="henging-lampDescription ">
+                                <h2>لامپ مدل آویز</h2>
+                                <p>شما می توانید با این مدل لامپ های آوبزان بهبه خانه ی خود زیبایی و جلوه فوق العاده ای بدهید.</p>
+                                <a href="#">میخرمش</a>
+                            </div>
+                            <div class="henging-lamp_img">
+                                <img src="images/lamp.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex align-items-center justify-content-center henging-lamp_left">
+                            <div>
+                                <h2>لامپ آویز</h2>
+                                <p>آرشیو لامپ های آویز</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end section one-->
+        <!--start section two-->
+        <section>
+            <div class="henging-lamp-two">
+                <div class="test-two"></div>
+                <div class="container">
+                    <div class="henging-lamp-two-right"></div>
+                    <div class="henging-lamp-two-left"></div>
+                </div>
+            </div>
+        </section>
+        <!--end section two-->
+/////////////////////////////////////////////////
+/* henging-lamp*/
+
+.test {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 98%;
+}
+
+.henging-lamp {
+    background-color: #c56211;
+}
+
+.henging-lamp_img img {
+    width: 300px;
+}
+
+.henging-lamp_right {
+    background-color: white;
+}
+
+.henging-lampDescription {
+    margin-top: 50px;
+}
+
+.henging-lampDescription a {
+    color: white;
+    background-color: #c56211;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-right: auto;
+    width: 67px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+
+/* henging-lamp-two*/
+
+.henging-lamp-two {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.test-two {
+    background-image: url(../images/hang.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 34%;
+}

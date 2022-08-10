@@ -1,0 +1,398 @@
+/*global style*/
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+body {
+    font-family: 'vazir';
+    direction: rtl;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*header style*/
+
+.background-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 250px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.navbar-right a {
+    padding: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(97, 61, 19);
+    transition: 500ms;
+}
+
+.navbar-right a:hover {
+    transform: scale(1.1);
+    color: #9c917b;
+}
+
+.menu-icon {
+    font-size: 25px;
+    color: rgb(97, 61, 19);
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.navbar-left a {
+    padding: 8px;
+}
+
+.navbar-left a i {
+    color: rgb(97, 61, 19);
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.navbar-left a i:hover {
+    transform: scale(1.1);
+    color: #9c917b;
+}
+
+.logo {
+    width: 75px;
+}
+
+
+/*header slide style*/
+
+.slide .discription {
+    position: relative;
+}
+
+.discription span {
+    position: absolute;
+    font-size: 120px;
+    font-weight: 900;
+    color: #afafaf1c;
+    top: -80px;
+    right: -118px;
+}
+
+.slide .discription h3 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #505050;
+    line-height: 0;
+    letter-spacing: -2px;
+}
+
+.slide .discription h2 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-right: 200px;
+    color: #222222;
+    letter-spacing: -2px;
+}
+
+
+/* start section one */
+
+.section-one {
+    background-color: #c56211;
+    position: relative;
+}
+
+.henging-lamp_right {
+    padding-left: 0;
+}
+
+.henging-lamp_right .one-discription h2 {
+    font-weight: bolder;
+    font-style: 30px;
+}
+
+.henging-lamp_right .one-discription p {
+    font-size: 15px;
+}
+
+.henging-lamp_right .one-discription a {
+    color: white;
+    background-color: #c56211;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-right: auto;
+    width: 67px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    transition: 500ms;
+}
+
+.henging-lamp_right .one-discription a:hover {
+    background-color: #294152;
+}
+
+.test {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+}
+
+.s-one-img {
+    width: 450px;
+}
+
+.henging-lamp_right {
+    background-color: white;
+}
+
+.henging-lamp_left {
+    background-color: #c56211;
+}
+
+
+/* start section two */
+
+.section-two {
+    width: 100%;
+    height: 584px;
+    position: relative;
+}
+
+.two-test {
+    background-image: url(../images/hang.jpg);
+    position: absolute;
+    background-size: cover;
+    bottom: 0;
+    left: 501.54px;
+    top: 0;
+    right: 0;
+}
+
+.s-two-right {
+    padding: 0 17px;
+}
+
+.d-price {
+    height: 700px;
+    padding-top: 40px;
+}
+
+.price-img {
+    height: 163px;
+}
+
+.name {
+    color: #c56211;
+    transition: 500ms;
+}
+
+.name:hover {
+    color: #294152;
+    transform: scale(1.1);
+}
+
+.disprice {
+    text-decoration: line-through;
+    color: #c56211;
+    font-size: 10px;
+}
+
+.price {
+    color: #294152;
+}
+
+
+/*start section tree*/
+
+.section-tree {
+    background-color: #294152;
+    position: relative;
+}
+
+.s-tree-henging-lamp_right {
+    background-color: #294152;
+}
+
+.s-tree-test {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 200px;
+}
+
+.henging-lamp_left {
+    padding-left: 0;
+}
+
+.s-tree-henging-lamp_left .tree-discription h2 {
+    font-weight: bolder;
+    font-style: 30px;
+    color: #294152;
+}
+
+.s-tree-henging-lamp_left .tree-discription p {
+    font-size: 15px;
+    max-width: 450px;
+}
+
+.s-tree-henging-lamp_left .tree-discription a {
+    color: white;
+    background-color: #294152;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-right: auto;
+    width: 67px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    transition: 500ms;
+}
+
+.s-tree-henging-lamp_left .tree-discription a:hover {
+    background-color: #c56211;
+}
+
+.s-tree-img {
+    width: 250px;
+}
+
+.s-tree-henging-lamp_left {
+    background-color: white;
+}
+
+
+/*start section four*/
+
+.section-four {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.four-test {
+    background-image: url(../images/5.jpg);
+    position: absolute;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 501.54px;
+}
+
+.s-four-d-price {
+    height: 700px;
+    padding-top: 40px;
+}
+
+.price-img {
+    height: 163px;
+}
+
+.s-four-name {
+    color: #294152;
+    transition: 500ms;
+}
+
+.s-four-name:hover {
+    color: #c56211;
+    transform: scale(1.2);
+}
+
+.s-four-disprice {
+    text-decoration: line-through;
+    color: #294152;
+    font-size: 10px;
+}
+
+
+/*start section five(conters)*/
+
+.conters {
+    width: 100%;
+    background-color: #9ac0fc;
+    padding: 60px 100px;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.conter {
+    margin-top: 20px;
+}
+
+.icon h5 {
+    font-size: 15px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #202020;
+    padding: 50px 0;
+    color: white;
+}
+
+.h-footer {
+    text-align: center;
+    width: 380px;
+}
+
+.h-footer h2 {
+    margin: 0;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+.h-footer h2:hover {
+    color: #c56211;
+}
+
+.footer-social i {
+    color: white;
+    padding: 50px 20px;
+    transition: 500ms;
+}
+
+.footer-social i:hover {
+    color: #c56211;
+}
+
+.footer-social {
+    border-bottom: 1px solid #9ac0fc;
+}
+
+.footer-desc {
+    margin-top: 40px;
+}
+
+.footer-desc p {
+    font-size: 13px;
+}
