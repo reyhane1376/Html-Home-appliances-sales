@@ -1,6 +1,6 @@
 # Name : Html Home appliances sales
 
-<img src="/image/page.png">
+<img src="/images/page.png">
 ## Key Topics
 
 * Standard Web Coding
